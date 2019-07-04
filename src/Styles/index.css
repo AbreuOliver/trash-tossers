@@ -69,19 +69,30 @@ body {
   color: white;
 }
 
+* {
+  font-family: "Pathway Gothic One", sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100vw;
+  padding-bottom: 5px;
+  background-color: #0D1B2A;
+}
+
 .App {
-  font-family: sans-serif;
-  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  text-align: center;
   width: 100vw;
   margin: 0 auto;
-}
-
-* {
-  font-family: "Pathway Gothic One", sans-serif;
 }
 
 .landingPage h1 {
