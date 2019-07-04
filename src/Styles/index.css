@@ -101,14 +101,14 @@ table {
   justify-content: center;
   align-items: center;
   top: 0;
-  height: 2rem;
+  height: 10vmax;
   color: white;
   padding-bottom: 0px;
   width: 100vw;
   background-color: #0D1B2A;
   color: #E2E2EB;
   font-family: "Pathway Gothic One", sans-serif;
-  font-size: 10vmin;
+  font-size: 7vmax;
 }
 
 .footer-container {
