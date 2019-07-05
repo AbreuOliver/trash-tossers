@@ -8,8 +8,19 @@
     text-align: center
     width: 100vw
     margin: 0 auto
-    color: black
-    background-color: $deep-space-sparkle
+    color: $platinum
+    background: $deep-space-sparkle url("../Images/trashie.ico") no-repeat fixed center
+    
+    .header-area
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            padding-top: 25px
+
+    h1
+        font-size: 10vmin
+        color: black
 
     .button-container
         display: flex
@@ -24,21 +35,6 @@
         width: 100px
         background-color: $platinum
         margin: 0 5px 0 5px
-
-.logo
-    margin-left: 10px
-    filter: invert(100%)
-    height: 40px
-    width: auto
-
-.header-area
-        display: flex
-        flex-direction: row
-        justify-content: center
-        align-items: center
-
-/*        
-        display: inline-block
         border: none
         padding: 1rem 2rem
         margin: 0
@@ -65,4 +61,10 @@
 
     button:active 
         transform: scale(0.99)
-        */
+
+.logo
+    margin-left: 10px
+    filter: invert(100%)
+    height: 40px
+    width: auto
+

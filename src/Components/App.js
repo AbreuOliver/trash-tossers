@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./header";
-import * as trashie from "../Images/trashie.ico";
 import Footer from "./footer";
 
 function App() {
@@ -8,8 +7,7 @@ function App() {
 		<div className="App">
 			<Header className="header" />
 			<div className="header-area">
-				<p>Trash Tossers</p>
-				<img className="logo" src={trashie} alt="logo" />
+				<h1>Trash Tossers</h1>
 			</div>
 			<div>
 				<h1>Trash Pickup Services</h1>
