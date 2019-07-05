@@ -1,13 +1,17 @@
 import React from "react";
-// import trashie from "../Images/trashie2.png";
+import moment from "moment";
+
+const nextFriday = moment()
+	.day(+5)
+	.format("dddd, MMMM D ");
 
 function Header() {
 	return (
 		<div className="header-container">
-			<div className="header-area">
-				<p>Trash Tossers</p>
-				{/* <img className="logo" src={trashie} alt="logo" /> */}
-			</div>
+			<p>
+				Next Pickup: <span className="next-Friday">{nextFriday}</span>{" "}
+				at 7:00 PM
+			</p>
 		</div>
 	);
 }

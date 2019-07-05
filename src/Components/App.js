@@ -1,11 +1,16 @@
 import React from "react";
 import Header from "./header";
+import * as trashie from "../Images/trashie.ico";
 import Footer from "./footer";
 
 function App() {
 	return (
 		<div className="App">
-			<Header />
+			<Header className="header" />
+			<div className="header-area">
+				<p>Trash Tossers</p>
+				<img className="logo" src={trashie} alt="logo" />
+			</div>
 			<div>
 				<h1>Trash Pickup Services</h1>
 			</div>
