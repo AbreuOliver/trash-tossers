@@ -65,7 +65,7 @@ table {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Didact Gothic", sans-serif;
+  font-family: "Nanum Gothic Coding", sans-serif;
   text-align: center;
   width: 100vw;
   margin: 0 auto;
@@ -84,9 +84,12 @@ table {
   color: white;
   width: 100vw;
   margin-bottom: 1rem;
+  font-family: "Didact Gothic", sans-serif;
 }
 .App h3, .App h4 {
+  margin-top: 1rem;
   margin-bottom: 1rem;
+  color: #E0E1DD;
 }
 
 .logo {
@@ -157,22 +160,26 @@ table {
   border: none;
   margin: 0;
   text-decoration: none;
-  color: #0D1B2A;
   font-family: sans-serif;
+  color: white;
   font-size: 1.5rem;
   cursor: pointer;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   border-radius: 10px;
+  background: #0053ba;
 }
 .button-container .payment {
   background-color: #FFD500;
-  color: #0D1B2A;
+  color: white;
+}
+.button-container .payment:hover,
+.button-container .payment:focus {
+  color: white;
 }
 
 button:hover,
 button:focus {
-  background: #0053ba;
   color: white;
 }
 
