@@ -2,9 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Pathway+Gothic+One&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap");
-/* http://meyerweb.com/eric/tools/css/reset/ 
- * v2.0 | 20110126
- * License: none (public domain) */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -26,7 +23,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
@@ -62,8 +58,6 @@ table {
   font-size: 8vmin;
 }
 
-/* COLOR THEME: "MELANCHOLY BLUES" */
-/* COLOR THEME: "INTENSE CITRUS" */
 /* COMPONENTS */
 .App {
   min-height: 100vh;
@@ -76,22 +70,23 @@ table {
   width: 100vw;
   margin: 0 auto;
   color: #E2E2EB;
-  background-color: #415A77;
   background: #415A77 url("../Images/trashie.ico") no-repeat fixed center;
 }
-.App .button-container {
+.App .header-area {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  height: 200px;
+  padding-top: 25px;
 }
-.App button {
-  height: 35px;
-  width: 100px;
-  background-color: #E2E2EB;
-  margin: 0 5px 0 5px;
+.App h1 {
+  font-size: 4rem;
+  color: white;
+  width: 100vw;
+  margin-bottom: 1rem;
+}
+.App h3, .App h4 {
+  margin-bottom: 1rem;
 }
 
 .logo {
@@ -101,39 +96,6 @@ table {
   width: auto;
 }
 
-.header-area {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-/*      display: inline-block
- *      border: none
- *      padding: 1rem 2rem
- *      margin: 0
- *      text-decoration: none
- *      background: #0069ed
- *      color: #ffffff
- *      font-family: sans-serif
- *      font-size: 1rem
- *      cursor: pointer
- *      text-align: center
- *      transition: background 250ms ease-in-out, 
- *                  transform 150ms ease
- *      -webkit-appearance: none
- *      -moz-appearance: none
- *
- *  button:hover,
- *  button:focus 
- *      background: #0053ba
- *  button:focus 
- *      outline: 1px solid #fff
- *      outline-offset: -4px
- *
- *  button:active 
- *      transform: scale(0.99)
- *      */
 .next-Friday {
   text-transform: capitalize;
   color: #FFD500;
@@ -173,6 +135,53 @@ table {
   text-align: center;
   font-family: "Nanum Gothic Coding", sans-serif;
   font-size: 3vmin;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+}
+.button-container button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 80vw;
+  background-color: #E2E2EB;
+  margin: 0 5px 0 5px;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  color: #0D1B2A;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  border-radius: 10px;
+}
+.button-container .payment {
+  background-color: #FFD500;
+  color: #0D1B2A;
+}
+
+button:hover,
+button:focus {
+  background: #0053ba;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  transform: scale(0.99);
 }
 
 /*# sourceMappingURL=index.css.map */
