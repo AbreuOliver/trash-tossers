@@ -80,7 +80,8 @@ table {
     -webkit-font-smoothing: antialiased; }
   .App h3, .App h4 {
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 10rem;
+    font-size: 3rem;
     color: #a0979f;
     text-shadow: #000 0px 3px 0px;
     -webkit-font-smoothing: antialiased;
