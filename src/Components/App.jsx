@@ -10,10 +10,9 @@ function App() {
 				<h1 id="main-heading">Trash Tossers</h1>
 			</div>
 			<h3>Personal Trash Disposal</h3>
-			{/* <h4>Each Bag $1</h4> */}
 			<div className="button-container">
-				<button>Tell Me More</button>
-				<button className="payment">Take My Trash!</button>
+				<button>Learn More</button>
+				<button className="payment">Request Pickup</button>
 			</div>
 			<Footer />
 		</div>

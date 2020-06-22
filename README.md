@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/37b23e52-0d25-4117-a98a-661616cab3de/deploy-status)](https://app.netlify.com/sites/trashtossers/deploys)

@@ -5,7 +5,7 @@ function Footer() {
 		<div className="footer-container">
 			<div className="footer-area">
 				{" "}
-				Copyright © {new Date().getFullYear()} Trash Tossers, LLC. All
+				Copyright © Trash Tossers, LLC  2018-{new Date().getFullYear()} All
 				rights reserved.
 			</div>
 		</div>

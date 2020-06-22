@@ -31,7 +31,7 @@ function Header() {
 		<div className="header-container">
 			<p>
 				Next Pickup:{" "}
-				<span className="next-Friday">{dateToDisplay}</span> at 7:00 PM
+				<span className="next-Friday">{dateToDisplay}</span> at 8:00 PM
 			</p>
 		</div>
 	);
